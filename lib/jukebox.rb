@@ -44,7 +44,6 @@ end
 
 def run(songs)
 puts "Pleast enter a command:"
-help
 user_i = gets.chomp
   
   while user_i != "exit"
