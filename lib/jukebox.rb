@@ -43,8 +43,8 @@ def exit_jukebox
 end 
 
 def run(songs)
-puts "Pleast enter a command:"
-user_i = gets.chomp
+puts "Please enter a command:"
+  user_i = gets.chomp
   
   while user_i != "exit"
       if user_i == "help"
